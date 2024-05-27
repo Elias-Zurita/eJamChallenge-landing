@@ -1,0 +1,633 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+
+/* ---- HEADER ---- */
+.headerEstatico {
+  background-color: #252f3d;
+  display: flex;
+  font-size: 12px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  justify-content: space-around;
+  height: 50px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+.headerEstatico svg {
+  height: 22px;
+  margin-right: 10px;
+}
+.headerEstatico div {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  
+}
+.carousel{
+    background-color: #252f3d;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    text-transform: uppercase;
+    display: none;
+}
+.carousel svg{
+    height: 22px;
+}
+.carousel-inner{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    height: 42px;
+}
+.infoCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoCarousel svg{
+    margin-right: 10px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {    
+    height: 20px!important;
+}
+
+/* ---- BODY --- */
+.logos{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 127px 30px 127px;
+
+}
+.cajaIzqLogos img{
+  height: 36px;
+}
+.cajaDerLogos img{
+  height: 32px;
+}
+.titulo{
+  text-align: center;
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+}
+.subtitulo{
+  font-family: Manrope;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.pasos{
+  display: flex;
+  justify-content:space-around;
+  padding: 0 100px;
+  margin-top: 50px;
+}
+.step{
+  display: flex;
+  align-items: center;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.iconoStep{
+  height: 40px;
+  width: 40px;
+  background-color:#85BF55;
+  color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.iconoStep3{
+  height: 40px;
+  width: 40px;
+  background-color:#2C7EF8;
+  color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.iconoStep4{
+  height: 40px;
+  width: 40px;
+  background-color:white;
+  color: #2C7EF8;
+  border-radius: 100%;
+  border: #2C7EF8 solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.imagenResponsive{
+  display: none;
+  text-align: center;
+}
+.imagenResponsive img{
+  width: 80%;
+}
+.columnasBody{
+  background-color: #FAFAFA;
+  padding: 40px 10px;
+  display: flex;
+  width: 85%;
+  border-radius: 10px;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+.columnaIzq{
+  width: 53%;
+  background-color: #FAFAFA;
+  padding: 40px 10px;
+}
+.columnaIzq img{
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.testimonio{
+  background-color: white;
+  margin-top:30px;
+  border-radius: 10px;
+}
+.cliente{
+  display: flex;
+  align-items: center;
+}
+.cliente img{
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.estrellas{
+  color: #FBBC04;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+.calificacion{
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+.calificacion svg{
+  height: 16px;
+  width: 16px;
+}
+green{
+  color:#5BB59A
+}
+.columnaDerecha{
+  width: 550px;
+  background-color: #FAFAFA;
+  padding: 40px 10px;
+}
+.titulosColumnaDerecha{
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+}
+blue{
+  color: #2C7EF8;
+}
+.relato{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 20px;
+}
+.imagenCeluYtextos{
+  margin-top:30px;
+  display: flex;
+}
+.imagenCelular{
+  background-color: #2C7EF8;
+  border-radius: 10px;
+  width: 134px;
+  height: 134px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagenCelular img{
+  width: 95%;
+}
+.textoscelu{
+  margin-left: 20px;
+}
+.tituloTextosCelu{
+  display: flex;
+  justify-content:space-between;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.precios{
+  display: flex;
+  font-size:22px;
+  align-items: center;
+}
+.tachado{
+  color: #969696; 
+  text-decoration: line-through;
+  text-decoration-color: #969696; 
+  text-decoration-thickness: 0.05em;
+  text-decoration-skip-ink: none;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.estrellasCelu{
+  color: #FBBC04;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.stock{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.86px;
+  color: #37465A;
+}
+.stock i{
+  color: #2C7EF8;
+  margin-right: 10px;
+}
+.textoStockResponsive{
+  display: none;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  margin-top: 20px;
+}
+.textoStock{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+.tildesYtextos{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  margin-top: 40px;
+}
+.tildesYtextos i{
+  color: #2C7EF8;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.porcentajes{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #EDF3FD;
+  padding: 12px;
+  margin-top: 25px;
+  width: 95%;
+}
+.porcentajeIcono{
+  color: white;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  background-color: #2C7EF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Manrope;
+  margin-right: 20px;
+}
+.botonVerde{
+  background-color: #59AE43;
+  color: white;
+  border-radius: 50px;
+  padding: 16px 64px 16px 64px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.32px;
+  text-transform: uppercase;
+}
+.botonVerde i{
+  margin-left: 20px;
+}
+.tarjetas{
+  margin-top: 20px;
+  border: solid 1px #CFCFCF;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content:space-around;
+  padding: 8px 16px 8px 16px;
+  align-items: center;
+}
+.textosPagos{
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+.textosPagos div{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tarjetas div{
+  border-right: #CFCFCF solid 1px;
+  display: flex;
+  justify-content:center;
+}
+.mediosDePago{
+  display: flex;
+  justify-content: end;
+  border-right: 0px;
+  width: 35%;
+  flex-wrap: wrap;
+}
+.mediosDePago div{
+  width: 24px;
+  height: 14px;
+  border: #d2d2d2 solid 1px;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+}
+.mediosDePago img{
+  width: 24px;
+}
+.noGracias{
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  text-align: center;
+  color:#F82C2C;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top:30px
+}
+.satisfaccion{
+  display: flex;
+  margin-top: 40px;
+}
+.logoSatisfaccion{
+  width: 88px;
+  height: 88px;
+}
+.logoSatisfaccion img{
+  height: 100%;
+  width: auto;
+}
+.textoSatisfaccion{
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  padding: 10px;
+}
+
+/* ---- Footer ---- */
+footer{
+  background-color:#252F3D;
+  height: 88px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.copyright{
+  display: flex;
+  padding: 5px;
+}
+
+@media (max-width: 1300px) {
+  .columnasBody{
+    padding: 40px 80px;
+  }
+ .imagenResponsive{
+    display: block;
+  }
+  .step{
+    flex-direction: column;
+  }
+  .step{
+    font-size:15px
+  }
+  .nombreStep{
+    display: none;
+  }
+  .columnaIzq{
+    display: none;
+  }
+  .columnaDerecha{
+    width: 100%;
+  }
+  .titulosColumnaDerecha{
+    text-align: center;
+    font-size: 24px;
+  }
+  .columnaDerecha{
+    padding:10px 0px
+  }
+  .columnasBody{
+    margin-top:25px;
+  }
+  .stock{
+    font-size: 12px;
+  }
+  .textoscelu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .textoStockResponsive{
+    display: block;
+  }
+  .textoStock{
+    display: none;
+  }
+  .precios{
+    font-size:14px;
+  }
+  .tachado{
+    font-size:10px
+  }
+  .tildesYtextos{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .porcentajes{
+    font-size: 16px;
+    display: flex;
+  }
+  .tarjetas{
+    flex-direction: column;
+  }
+  .tarjetas div{
+    border-right: 0;
+  }
+  .textosPagos{
+    width: 100%;
+    padding: 5px 0;
+  }
+  
+  .mediosDePago{
+    border-top: 1px #d2d2d2 solid;
+    width: 100%;
+    padding-top: 8px;
+  }
+  footer{
+    padding: 0 50px;
+  }
+}
+@media (max-width: 800px) {
+  body{
+    background-color:#FAFAFA!important;
+  }
+  .logos{
+    background-color: white!important;
+  }
+  .headerEstatico {
+    display: none;
+  }
+  .logos{
+    padding: 20px;
+  }
+  .carousel{
+    display: block;
+  }
+  .cajaIzqLogos img{
+  height: 20px;
+  }
+  .cajaDerLogos img{
+    height: 16px;
+  }
+  .titulo{
+  font-size: 32px;
+  padding-top: 10px;
+  }
+  .pasos{
+    margin-top:22px
+  }
+  .subtitulo{
+    font-size: 16px;
+  }
+  .tituloTextosCelu{
+    font-size: 14px;
+  }
+  .pasos{
+    padding: 0;
+  }
+  .iconoStep{
+    height: 20px;
+    width: 20px;
+  }
+  .iconoStep3{
+    height: 20px;
+    width: 20px;
+  }
+  .iconoStep4{
+    height: 20px;
+    width: 20px;
+  }
+  .step{
+    font-size:12px
+  }
+  .columnasBody{
+    padding:0px
+  }
+    .imagenCelular{
+    height:80px;
+    width: 80px;
+  }
+  .porcentajes{
+    font-size: 14px;
+    width: 100%;
+  }
+  .tildesYtextos{
+    margin-top: 20px;
+  }
+  .botonVerde{
+    font-size: 14px;
+    padding: 16px 30px 16px 30px;
+  }
+  .tarjetas{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .candaditoTarjetas{
+    width: 80%!important;
+  }
+  .noGracias{
+    font-size:12px;
+    margin-top: 15px;
+  }
+  .textoSatisfaccion{
+    font-size: 12px;
+  }
+  .logoSatisfaccion{
+    height: 48px;
+    width: 48px;
+  }
+  .seguro{
+    margin-top: 10px;
+  }
+  footer{
+    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+  }
+}
+@media (max-width: 600px) {
+  .columnasBody{
+    width: 95%;
+  }
+  .imagenResponsive img{
+    height: 325px;
+    width: auto;
+  }
+}
