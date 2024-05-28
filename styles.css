@@ -357,7 +357,7 @@ blue{
   font-weight: 400;
   display: flex;
   justify-content:space-around;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 5px 8px 5px;
   align-items: center;
 }
 .textosPagos{
@@ -371,17 +371,23 @@ blue{
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .tarjetas div{
-  border-right: #CFCFCF solid 1px;
+  
   display: flex;
   justify-content:center;
+}
+.candaditoTarjetas{
+    width: 100%!important;
+    border-right: #CFCFCF solid 1px;
+    border-left: #CFCFCF solid 1px;
 }
 .mediosDePago{
   display: flex;
   justify-content: end;
   border-right: 0px;
-  width: 35%;
+  width: 50%;
   flex-wrap: wrap;
 }
 .mediosDePago div{
