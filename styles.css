@@ -565,6 +565,7 @@ footer{
   }
   .tituloTextosCelu{
     font-size: 14px;
+    width: 90%;
   }
   .pasos{
     padding: 0;
@@ -612,6 +613,9 @@ footer{
   .noGracias{
     font-size:12px;
     margin-top: 15px;
+  }
+  .satisfaccion{
+    align-items: center;
   }
   .textoSatisfaccion{
     font-size: 12px;
